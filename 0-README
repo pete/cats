@@ -8,3 +8,10 @@ know C).  Other than that, I think the files speak for themselves.
 
 Keep in mind while reading that the cat utility's purpose is to concatenate
 files.
+
+Lastly, here are the line counts, sorted:
+35 plan9-cat.c
+48 busybox-cat.c
+316 netbsd-cat.c
+782 gnu-cat.c
+1181 total
