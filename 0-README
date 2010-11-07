@@ -1,0 +1,9 @@
+Here, placed side-by-side for comparison, are GNU's implementation of cat, Plan 9's implementation, Busybox's implementation, and NetBSD's implementation.
+
+All cat.c files (renamed by prefixing the source) are presented, unaltered and
+in their entirety.  Note how easy it is to read and understand plan9-cat.c (it
+should take less than a couple of minutes possibly even for coders that don't
+know C).  Other than that, I think the files speak for themselves.
+
+Keep in mind while reading that the cat utility's purpose is to concatenate
+files.
