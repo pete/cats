@@ -1,6 +1,6 @@
 Here, placed side-by-side for comparison, are GNU's implementation of
 cat, Plan 9's implementation, Busybox's implementation, and NetBSD's
-implementation, and Seventh Edition Unix (1979).
+implementation, Seventh Edition Unix (1979), and 4.3BSD.
 
 For good measure (and because I suppose I am now committed to collecting
 cats) also included are Second Edition Unix (in assembly) and Inferno's
@@ -18,9 +18,8 @@ concatenate files.
 Lastly, here are the line counts, sorted:
    35 plan9-cat.c
    48 busybox-cat.c
-   48 inferno-cat.b
    63 unix7-cat.c
-   64 unix2-cat.s
+  222 4.3bsd-cat.c
   316 netbsd-cat.c
   782 gnu-cat.c
- 1356 total
+ 1466 total
