@@ -1,17 +1,26 @@
-Here, placed side-by-side for comparison, are GNU's implementation of cat, Plan
-9's implementation, Busybox's implementation, and NetBSD's implementation.
+Here, placed side-by-side for comparison, are GNU's implementation of
+cat, Plan 9's implementation, Busybox's implementation, and NetBSD's
+implementation, and Seventh Edition Unix (1979).
 
-All cat.c files (renamed by prefixing the source) are presented, unaltered and
-in their entirety.  Note how easy it is to read and understand plan9-cat.c (it
-should take less than a couple of minutes possibly even for coders that don't
-know C).  Other than that, I think the files speak for themselves.
+For good measure (and because I suppose I am now committed to collecting
+cats) also included are Second Edition Unix (in assembly) and Inferno's
+implementation (in Limbo) for good measure.
 
-Keep in mind while reading that the cat utility's purpose is to concatenate
-files.
+All cat.c files (renamed by prefixing the name of the source source) are
+presented, unaltered and in their entirety.  Note how easy it is to read
+and understand plan9-cat.c (it should take less than a couple of minutes
+possibly even for coders that don't know C).  Other than that, I think
+the files speak for themselves.
+
+Keep in mind while reading that the cat utility's purpose is to
+concatenate files.
 
 Lastly, here are the line counts, sorted:
-35 plan9-cat.c
-48 busybox-cat.c
-316 netbsd-cat.c
-782 gnu-cat.c
-1181 total
+   35 plan9-cat.c
+   48 busybox-cat.c
+   48 inferno-cat.b
+   63 unix7-cat.c
+   64 unix2-cat.s
+  316 netbsd-cat.c
+  782 gnu-cat.c
+ 1356 total
