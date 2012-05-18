@@ -15,11 +15,15 @@ the files speak for themselves.
 Keep in mind while reading that the cat utility's purpose is to
 concatenate files.
 
-Lastly, here are the line counts, sorted:
-   35 plan9-cat.c
-   48 busybox-cat.c
-   63 unix7-cat.c
-  222 4.3bsd-cat.c
-  316 netbsd-cat.c
-  782 gnu-cat.c
- 1466 total
+Lastly, here are the line and character counts, sorted:
+Lines  Chars  Filename
+---------------------------
+   35    531  plan9-cat.c
+   48    955  busybox-cat.c
+   48    986  inferno-cat.b
+   63   1130  unix7-cat.c
+   64    646  unix2-cat.s
+  222   3948  4.3bsd-cat.c
+  316   6952  netbsd-cat.c
+  782  22684  gnu-cat.c
+ 1578  37832  total
