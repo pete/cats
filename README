@@ -1,6 +1,6 @@
 Here, placed side-by-side for comparison, are GNU's implementation of
 cat, Plan 9's implementation, Busybox's implementation, and NetBSD's
-implementation, Seventh Edition Unix (1979), Tenth Edition Unix (1989)
+implementation, Seventh Edition Unix (1979), Tenth Edition Unix (1989),
 and 4.3BSD.
 
 For good measure (and because I suppose I am now committed to collecting
