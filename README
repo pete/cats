@@ -5,7 +5,7 @@ and 4.3BSD.
 
 For good measure (and because I suppose I am now committed to collecting
 cats) also included are Second Edition Unix (in assembly) and Inferno's
-implementation (in Limbo) for good measure.
+implementation (in Limbo).
 
 All cat.c files (renamed by prefixing the name of the source source)
 are presented, unaltered and in their entirety.  Note how easy it is to
